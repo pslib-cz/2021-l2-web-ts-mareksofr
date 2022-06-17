@@ -1,0 +1,99 @@
+@media (min-width: 1150px) {
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: baseline;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 5%;
+        flex-direction: row;
+        align-content: flex-start;
+        min-width: 1000px;
+    }
+
+    .header__nazev {
+        font-size: 75px;
+        max-width: 505px;
+    }
+
+    .section {
+        margin-bottom: 150px;
+    }
+
+    .section__fotky-serie {
+        column-gap: 70px;
+    }
+
+    .section__bf {
+        flex-wrap: nowrap;
+    }
+
+    .caption-bf {
+        max-width: 525px;
+    }
+
+    .section__nadpisy {
+        display: flex;
+    }
+
+    .section__obsah {
+        display: flex;
+    }
+
+    .section__obsah-figure {
+        width: 25%;
+    }
+
+    figcaption {
+        font-size: 33px;
+    }
+    
+    .section__nadpis-h2 {
+        font-size: 50px;
+        margin: 100px 0 50px 0;
+    }
+
+    .section__nadpis-h3 {
+        font-size: 37px;
+    }
+
+    .nav__item > a {
+        font-size: 27px;
+    }
+    
+    .section__ja {
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .section__fotogalerie {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: space-between;
+        column-gap: 100px;
+        row-gap: 50px;
+    }
+
+    .section__ja > p {
+        max-width: 704px;
+    }
+
+    .section__ja > img {
+        width: 150%;
+    }
+
+    .footer {
+        height: 65px;
+        font-size: 30px;
+        margin: 50px 0 0 0;
+    }
+}

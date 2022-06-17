@@ -1,0 +1,84 @@
+@media (min-width: 601px) and (max-width: 1149px) {
+    .header::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 3px;
+        left: 25%;
+        top: 355px;
+        background-color: black;
+    }
+
+    .header__nazev {
+        font-size: 45px;
+        max-width: 505px;
+    }
+
+    figcaption {
+        font-size: 21px;
+    }
+    
+    .section__nadpis-h2 {
+        font-size: 30px;
+        margin: 40px 0;
+    }
+
+    .section__nadpis-h3 {
+        font-size: 22px;
+    }
+
+    .nav__item > a {
+        font-size: 23px;
+    }
+
+    .section__fotogalerie {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: space-between;
+        column-gap: 50px;
+        row-gap: 25px;
+    }
+
+    .section__fotogalerie > figure {
+        max-width: 200px;
+    }
+
+
+    .section__obsah-figure {
+        width: 50%;
+    }
+
+    .section__bf {
+        flex-wrap: nowrap;
+    }
+
+    .caption-bf {
+        max-width: 35%;
+    }
+
+    .section__ja {
+        font-size: 23px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .section__ja > p {
+        max-width: 300px;
+    }
+
+    .section__fotky-serie {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-around;
+    }
+
+    .footer {
+        height: 45px;
+        font-size: 22px;
+        margin: 35px 0 0 0;
+    }
+}
